@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &379521179708366805
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2219292830544548193, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 900f0a7adfdd68143b0822385300b692, type: 2}
+    - target: {fileID: 2219292830553816709, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219292830553816709, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219292830553816709, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219292830553816709, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.996
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219292830553816709, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219292830553816709, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219292830553816709, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219292830553816709, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219292830553816709, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219292830553816709, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219292830553816709, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219292830553816709, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2219292830553907877, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+      propertyPath: m_Name
+      value: ChestMonster Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2219292830553907877, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6184421016743069423}
+    - targetCorrespondingSourceObject: {fileID: 2219292830553907877, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5823200129508982049}
+  m_SourcePrefab: {fileID: 100100000, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+--- !u!1 &1984072661092646256 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2219292830553907877, guid: 8f9d5ec998b74f23852a84c7eebbc419, type: 3}
+  m_PrefabInstance: {fileID: 379521179708366805}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6184421016743069423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984072661092646256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddf01e84940240341a071d4add9af337, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeDestroyChest: 3.2
+  player: {fileID: 0}
+  audio: {fileID: 0}
+  openChest: {fileID: 8300000, guid: 5303ebae9cf386a488090d5f6a6618d9, type: 3}
+--- !u!65 &5823200129508982049
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984072661092646256}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.99999994, y: 1.4779131, z: 3.2899523}
+  m_Center: {x: -0.00000003973643, y: 0.69038355, z: 1.8008199}
